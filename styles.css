@@ -1,0 +1,134 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    background-color: #000000 !important;
+    color: #e5e7eb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+.cv-container {
+    max-width: 1100px;
+    margin: 20px auto;
+    padding: 10px;
+}
+
+/* HEADER */
+.cv-header {
+    background: linear-gradient(135deg, #0f766e, #1abc9c);
+    color: #ffffff;
+    padding: 30px 20px;
+    border-radius: 14px;
+    text-align: center;
+    margin-bottom: 25px;
+    box-shadow: 0 8px 30px rgba(26, 188, 156, 0.25);
+    border: 1px solid rgba(255,255,255,0.1);
+}
+
+.cv-header h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.cv-header p {
+    font-size: 1rem;
+    color: #ccfbf1; 
+}
+
+/* TARJETAS */
+.card {
+    background-color: #111827 !important; 
+    border: 1px solid #1f2937 !important;
+    border-radius: 12px !important;
+    box-shadow: 0 4px 20px rgba(0,0,0,0.8) !important;
+    margin-bottom: 15px;
+    transition: all 0.25s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 25px rgba(26,188,156,0.25);
+}
+
+/* TITULOS */
+.card-title {
+    color: #1abc9c !important;
+    font-weight: 600;
+}
+
+/* TEXTO */
+p, li, small {
+    color: #d1d5db !important;
+}
+
+/* LISTAS */
+ul {
+    padding-left: 18px;
+}
+
+/* LINKS */
+a {
+    color: #1abc9c !important;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2dd4bf !important;
+}
+
+/* ICONOS */
+i {
+    color: #1abc9c;
+    margin-right: 8px;
+}
+
+/* TABLA */
+.table {
+    background-color: #111827 !important;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.table th {
+    background: #1abc9c !important;
+    color: #000 !important;
+    font-weight: 600;
+    border: none;
+}
+
+.table td {
+    background-color: #111827 !important;
+    color: #e5e7eb !important;
+    border-color: #1f2937 !important;
+}
+
+
+.table tbody tr:hover {
+    background-color: #1f2937 !important;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    margin: 20px 0;
+    font-size: 0.85rem;
+    color: #9ca3af;
+}
+
+/* RESPONSIVDAD */
+@media (max-width: 768px) {
+    .cv-header h1 {
+        font-size: 1.5rem;
+    }
+
+    .cv-header p {
+        font-size: 0.9rem;
+    }
+}

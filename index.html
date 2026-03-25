@@ -3,106 +3,135 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="styles.css">
     <title>CV de Dafne Mandujano</title>  
 </head>
 <body>
-    <header>
+  <div class="cv-container">
+
+    <!-- HEADER -->
+    <div class="cv-header">
         <h1>Dafne Mandujano</h1>
-        <p>Ingenieria en Informatica y estudiante de bootcamp full Stack Java</p>
-    </header>
-<hr>
-    <section>
-        <h2>Infromacion de contacto</h2>
-        <p>Email: <a href="mailto:hackerman@email.com">dmandujanomorgado@gmail.com</a></p>
-        <p>Teléfono: +56 9 4962 1539</p>
-        <p>Ubicación: Santiago, Chile</p>
-        <p>GitHub: <a href="https://github.com/DMandujano" target="_blank">github.com/DMandujano</a></p>
-    </section>
-<hr>
-    <section>
-        <h2>Perfil Profesional</h2>
-        <p>Soy una persona interesada en el área de tecnología, con experiencia en soporte 
-            técnico donde he realizado tareas como armado, formateo y configuración de equipos, 
-            además de atención a usuarios. Me destaco por ser organizada, trabajar bien en equipo y 
-            aprender rápido. Actualmente estoy realizando un bootcamp de Java Fullstack, con el objetivo 
-            de seguir desarrollándome en el área TI. Busco una oportunidad laboral donde pueda aplicar mis 
-            conocimientos, seguir aprendiendo y aportar con soluciones.
-        </p>
-    </section>
-<hr>
-    <section>
-  <h2>Formación académica</h2>
-  <ul>
-    <li>Bootcamp Full Stack Java - Generation Chile</li>
-    <li>Titulada en ingenieria en Informatica - DuocUC</li>
-    <li>Enseñanza media completa</li>
-  </ul>
-</section>
-<hr>
-<section>
-  <h2>Habilidades técnicas</h2>
-  <ul>
-    <li>HTML</li>
-    <li>CSS</li>
-    <li>Git y GitHub</li>
-    <li>Python</li>
-    <li>Java básico</li>
-    <li>Trabajo con Visual Studio Code</li>
-  </ul>
-</section>
-<hr>
-<section>
-  <h2>Habilidades blandas</h2>
-  <ul>
-    <li>Trabajo en equipo</li>
-    <li>Comunicación efectiva</li>
-    <li>Responsabilidad</li>
-    <li>Adaptabilidad</li>
-    <li>Aprendizaje continuo</li>
-  </ul>
-</section>
-<hr>
-<section>
-  <h2>Experiencia</h2>
+        <p>Ingeniería en Informática | Full Stack Java</p>
+    </div>
 
-  <article>
-    <h3>Práctica - Operador de Soporte TIC (2024)</h3>
-    <p>Realicé armado y desarmado de computadores, formateo de equipos y resolución de consultas a estudiantes.</p>
-  </article>
+    <div class="row g-3">
 
-  <article>
-    <h3>Práctica LAST DON | Soporte y Desarrollo Digital (2024)</h3>
-    <p>Estuve a cargo del área digital, supervisando dominios y realizando rediseños de páginas web. 
-        Además, asumí el rol de jefa del área de diseño, donde apoyé y capacité a nuevos integrantes.
-    </p>
-  </article>
-</section>
-<hr>
-<section>
-  <h2>Idiomas</h2>
-  <table border="1">
-    <thead>
-      <tr>
-        <th>Idioma</th>
-        <th>Nivel</th>
-      </tr>
-    </thead>
-    <tbody>
-      <tr>
-        <td>Español</td>
-        <td>Nativo</td>
-      </tr>
-      <tr>
-        <td>Inglés</td>
-        <td>Intermedio</td>
-      </tr>
-    </tbody>
-  </table>
-</section>
+        <!-- COLUMNA IZQUIERDA -->
+        <div class="col-12 col-md-4">
 
+            <div class="card p-3">
+            <h5 class="card-title">Contacto</h5>
+
+            <p><i class="bi bi-envelope-fill"></i> dmandujanomorgado@gmail.com</p>
+
+            <p><i class="bi bi-phone-fill"></i> +56 9 4962 1539</p>
+
+            <p><i class="bi bi-geo-alt-fill"></i> Santiago, Chile</p>
+
+            <p>
+                <i class="bi bi-github"></i>
+                <a href="https://github.com/DMandujano" target="_blank">GitHub</a>
+            </p>
+        </div>
+
+            <div class="card p-3">
+                <h5 class="card-title">Habilidades técnicas</h5>
+                <ul>
+                    <li><i class="bi bi-filetype-html"></i> HTML</li>
+                    <li><i class="bi bi-filetype-css"></i> CSS</li>
+                    <li><i class="bi bi-git"></i> Git</li>
+                    <li><i class="bi bi-github"></i> GitHub</li>
+                    <li><i class="bi bi-filetype-py"></i> Python</li>
+                    <li><i class="bi bi-cup-hot"></i> Java</li>
+                    <li><i class="bi bi-code-slash"></i> VS Code</li>
+                </ul>
+            </div>
+
+            <div class="card p-3">
+                <h5 class="card-title">Habilidades blandas</h5>
+                <ul>
+                    <li>Trabajo en equipo</li>
+                    <li>Comunicación</li>
+                    <li>Responsabilidad</li>
+                    <li>Adaptabilidad</li>
+                </ul>
+            </div>
+
+        </div>
+
+        <!-- COLUMNA DERECHA -->
+        <div class="col-12 col-md-8">
+
+            <div class="card p-3">
+                <h5 class="card-title">Perfil Profesional</h5>
+                <p>
+                    Soy una persona interesada en tecnología con experiencia en soporte técnico,
+                    destacando en trabajo en equipo y aprendizaje rápido. Actualmente en formación
+                    como Full Stack Java.
+                </p>
+            </div>
+
+            <div class="card p-3">
+                <h5 class="card-title">Formación</h5>
+                <ul>
+
+                    <li>
+                        <strong>Bootcamp Full Stack Java</strong><br>
+                        <small>Generation Chile | 2026 - Actualidad</small>
+                    </li>
+
+                    <li>
+                        <strong>Ingeniería en Informática</strong><br>
+                        <small>Duoc UC | 2021 - 2025</small>
+                    </li>
+
+                    <li>
+                        <strong>Enseñanza Media</strong><br>
+                        <small>Colegio Altos del Huerto | 2017 - 2020</small>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="card p-3">
+                <h5 class="card-title">Experiencia</h5>
+                <p><strong>Soporte TIC (2024)</strong><br>
+                Armado, formateo y soporte a usuarios.</p>
+
+                <p><strong>LAST DON (2024)</strong><br>
+                Soporte digital, rediseño web y liderazgo en diseño.</p>
+            </div>
+
+            <div class="card p-3">
+                <h5 class="card-title">Idiomas</h5>
+                <table class="table ">
+                    <thead>
+                        <tr>
+                            <th>Idioma</th>
+                            <th>Nivel</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Español</td>
+                            <td>Nativo</td>
+                        </tr>
+                        <tr>
+                            <td>Inglés</td>
+                            <td>Intermedio</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+  </div>
 
 <footer>
-  <p>CV creado solo con HTML - 2026</p>
+    <p>© 2026 Dafne Mandujano</p>
 </footer>
 
 </body>
